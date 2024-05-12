@@ -2,15 +2,35 @@
 <H3>REGISTER NO. 212222240096</H3>
 <H3>DATE: 12.05.2024</H3>
 <H1 Align="center">Project Based Experiment<H1>
+    
 <H3>Objective:<H3>
-step 1: Download facebook information form the settings
-step 2: Store it in thr excel sheet
-step 3: Import neccessary library in python
-step 4: Sentiment analysis involves working out whether a piceof text is positive,negative or neutral
-step 5: VADER takes into account the intensity of the sentiment.
-step 6: A data frame is a 2-D structure in the form of a table 
-step 7: End the program.
+    
+   
+ step 1:
+ Download facebook information form the settings
+ 
+ step 2:
+Store it in thr excel sheet
+
+ step 3:
+Import neccessary library in python
+
+ step 4:
+Sentiment analysis involves working out whether a piceof text is positive,negative or neutral
+
+ step 5:
+VADER takes into account the intensity of the sentiment.
+
+ step 6:
+A data frame is a 2-D structure in the form of a table.
+
+ step 7:
+End the program.
+
+    
 <H3>Program:</H3>
+
+
 ```py
 import pandas as pd
 import nltk
@@ -42,9 +62,14 @@ for data in dfs:
 ```
 <H3>Output:</H3>
 
+
 ![image](https://github.com/shalini-venkatesan/Project-Based-Experiment-AAI/assets/118720291/3030f28d-453b-45d2-be22-0eebe31d16ef)
+
 
 ![image](https://github.com/shalini-venkatesan/Project-Based-Experiment-AAI/assets/118720291/4135073a-627a-4898-936d-b82bd79ba49f)
 
+
 <H3>Inference:</H3>
+
+
 Analyze textual data from a Facebook dataset, assuming that timestamps contain "UTC+05:30". If a timestamp doesn't contain this string, it's considered textual data for sentiment analysis.
